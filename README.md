@@ -54,4 +54,4 @@ W | slovesá podľa vzorov pracovať
 T | slovesá podľa vzorov česať
 R | slovesá podľa vzorov kričať, brať
 
-Ak chcete súbory, kde sú iba podstatné mená, prídavné mená alebo slovesá, tak ich nájdete v tomto repe, nájdete tu aj TypeScriptový (.ts) súbor, pokiaľ by ste si chceli z toho súboru vybrať iba nejaké špecifické flagy. V prípade záujmu o JS súbor otvorte Issue.
+Ak chcete súbory, kde sú iba podstatné mená, prídavné mená alebo slovesá, tak ich nájdete v tomto repe, presnejšie v priečinku s programom a textovými dokumentami. Nájdete tam aj TypeScriptový (.ts) súbor, ktorý môžete použiť na extrahovanie vami špecifikovanými flagmi.
