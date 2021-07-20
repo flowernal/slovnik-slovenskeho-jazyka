@@ -19,7 +19,9 @@ alebo
 ![Ukážka rozbitých písmen](https://i.imgur.com/LTWI0Ga.png)
 
 Pokiaľ je toto váš prípad, tak máte 2 možnosti:
-* Pokiaľ ste na Linuxe, tak použite tento príkaz pre konvertovanie: `iconv -f ISO-8859-2 -t UTF-8 slovak.words > opravene.txt`
+* Pokiaľ ste na Linuxe, tak použite tento príkaz pre konvertovanie:
+
+  `iconv -f ISO-8859-2 -t UTF-8 slovak.words > opravene.txt`
 * Môžete si stiahnuť súbor `opravene.txt` z tohoto repa, kde to je už opravené.
 
 # Ďalšie informácie
