@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node index"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.3"
+  }
+}
