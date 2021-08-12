@@ -3,6 +3,10 @@ Pokiaľ ste sa dostali na túto stránku tak predpokladám, že hľadáte sloven
 
 Našťastie som objavil slovník, ktorý bol vyvíjaný pre ispell (Open Source spell checker), ktorý je vydaný pod licenciami GPL (v2), LGPL (v2.1) a MPL (1.1).
 
+# TODO
+* Spraviť priamy link na download opraveného súboru
+* Spraviť extrahovanie flagov priamo na webe
+
 # Kde ho nájdem?
 Slovník si môžete stiahnuť z [tejto stránky](http://sk-spell.sk.cx/ispell-sk).
 
