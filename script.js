@@ -11,5 +11,6 @@ const toggleAll = source => {
 
 const exportFile = () => {
     fetch("https://slovnik.brambora.sk/slovnik.txt")
-        .then(data => console.log(data.text()));
+        .then(data => data.text())
+        .then(text => console.log(text));
 }
