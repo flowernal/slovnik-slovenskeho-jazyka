@@ -10,6 +10,6 @@ const toggleAll = source => {
 }
 
 const exportFile = () => {
-    fetch("")
+    fetch("https://slovnik.brambora.sk/slovnik.txt")
         .then(data => console.log(data));
 }

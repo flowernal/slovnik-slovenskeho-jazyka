@@ -4,23 +4,23 @@ Pokiaľ ste sa dostali na túto stránku tak predpokladám, že hľadáte sloven
 Našťastie som objavil slovník, ktorý bol vyvíjaný pre ispell (Open Source spell checker), ktorý je vydaný pod licenciami GPL (v2), LGPL (v2.1) a MPL (1.1).
 
 # Kde ho nájdem?
-Slovník si môžete stiahnuť z [tejto stránky](http://sk-spell.sk.cx/ispell-sk).
+Slovník si môžete stiahnuť z [tejto stránky](https://sk-spell.sk.cx/ispell-sk).
 
 Tu máte aj priame odkazy na download:
-[ispell-sk-0.3.2.tar.gz](http://spell.linux.sk/file_download/19/ispell-sk-0.3.2.tar.gz&)
+[ispell-sk-0.3.2.tar.gz](https://spell.linux.sk/file_download/19/ispell-sk-0.3.2.tar.gz&)
 alebo
-["admin friendly" link](http://sk-spell.sk.cx/files/ispell-sk-0.3.2.tar.gz).
+["admin friendly" link](https://sk-spell.sk.cx/files/ispell-sk-0.3.2.tar.gz).
 
-Prípadne si môžete stiahnuť slovník priamo vo formáte UTF-8 [tu]().
+Prípadne si môžete stiahnuť slovník priamo vo formáte UTF-8 [tu](https://slovnik.brambora.sk/slovnik.txt).
 
 # Kroky po stiahnutí
 1. Otvoríte si súbor `ispell-sk-0.3.2.tar.gz` pomocou 7-Zip, WinRAR, Ark apod. (alebo ho nejak rozbalíte)
 2. Extrahujete súbor `slovak.words`.
 3. Súbor je zakódovaný v ISO-8859-2, pokiaľ ho chcete konvertovať na UTF-8 a ste na Linuxe, tak to môžete spraviť pomocou príkazu `iconv -f ISO-8859-2 -t UTF-8 slovak.words > slovnik.txt`.
-4. Môžete použiť [môj exporter]() pre exportovanie špecifických tagov. Taktiež si tam môžete vybrať rôzne nastavenia.
+4. Môžete použiť [môj exporter](https://slovnik.brambora.sk/) pre exportovanie špecifických tagov. Taktiež si tam môžete vybrať rôzne nastavenia.
 
 # Ďalšie informácie
-Za niektorými slovami je / a nejaké písmená, to sú flagy. Pridávam popis flagov zo [stránky](http://sk-spell.sk.cx/ispell-sk):
+Za niektorými slovami je / a nejaké písmená, to sú flagy. Pridávam popis flagov zo [stránky](https://sk-spell.sk.cx/ispell-sk):
 
 | Flag | Popis                                                                                                                                               |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
