@@ -11,12 +11,12 @@ Tu máte aj priame odkazy na download:
 alebo
 ["admin friendly" link](https://sk-spell.sk.cx/files/ispell-sk-0.3.2.tar.gz).
 
-Prípadne si môžete stiahnuť slovník priamo vo formáte UTF-8 [tu](https://slovnik.brambora.sk/slovnik.txt).
+Slovník vo formáte UTF-8 nájdete [tu](https://slovnik.brambora.sk/slovnik.txt), prípadne si môžete stiahnúť z tohoto repa.
 
 # Kroky po stiahnutí
 1. Otvoríte si súbor `ispell-sk-0.3.2.tar.gz` pomocou 7-Zip, WinRAR, Ark apod. (alebo ho nejak rozbalíte)
 2. Extrahujete súbor `slovak.words`.
-3. Súbor je zakódovaný v ISO-8859-2, pokiaľ ho chcete konvertovať na UTF-8 a ste na Linuxe, tak to môžete spraviť pomocou príkazu `iconv -f ISO-8859-2 -t UTF-8 slovak.words > slovnik.txt`. (vyššie je link na stiahnutie súboru priamo v UTF-8)
+3. Súbor je zakódovaný v ISO-8859-2, pokiaľ ho chcete konvertovať na UTF-8 a ste na Linuxe, tak to môžete spraviť pomocou príkazu `iconv -f ISO-8859-2 -t UTF-8 slovak.words > slovnik.txt` (vyššie je prípadne link na stiahnutie súboru priamo v UTF-8)
 4. Môžete použiť [môj exporter](https://slovnik.brambora.sk/) pre exportovanie špecifických tagov. Taktiež si tam môžete vybrať rôzne nastavenia.
 
 # Ďalšie informácie
