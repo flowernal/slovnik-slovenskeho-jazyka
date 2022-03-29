@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exporter</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+</head>
+<body>
+    <h1>Exporter</h1>
+    <p>Tu si môžeš exportnúť špecifické slová zo <a href="https://github.com/BramboraSK/slovnik-slovenskeho-jazyka">slovníku slovenského jazyka</a></p>
+
+    <h2>Flagy</h2>
+    <p>Informácie o flagoch nájdeš <a href="https://sk-spell.sk.cx/ispell-sk">tu</a></p>
+    <div>
+        <label><input type="checkbox" onclick="toggleAll(this)"/>Označiť všetko</label><br/>
+        <label><input type="checkbox" name="flag"/>N</label>
+        <label><input type="checkbox" name="flag"/>Z</label>
+        <label><input type="checkbox" name="flag"/>z</label>
+        <label><input type="checkbox" name="flag"/>U</label>
+        <label><input type="checkbox" name="flag"/>D</label>
+        <label><input type="checkbox" name="flag"/>K</label>
+        <label><input type="checkbox" name="flag"/>M</label>
+        <label><input type="checkbox" name="flag"/>S</label>
+        <label><input type="checkbox" name="flag"/>V</label>
+        <label><input type="checkbox" name="flag"/>A</label>
+        <label><input type="checkbox" name="flag"/>C</label>
+        <label><input type="checkbox" name="flag"/>H</label>
+        <label><input type="checkbox" name="flag"/>B</label>
+        <label><input type="checkbox" name="flag"/>O</label>
+        <label><input type="checkbox" name="flag"/>J</label>
+        <label><input type="checkbox" name="flag"/>L</label>
+        <label><input type="checkbox" name="flag"/>Q</label>
+        <label><input type="checkbox" name="flag"/>Y</label>
+        <label><input type="checkbox" name="flag"/>I</label>
+        <label><input type="checkbox" name="flag"/>F</label>
+        <label><input type="checkbox" name="flag"/>P</label>
+        <label><input type="checkbox" name="flag"/>X</label>
+        <label><input type="checkbox" name="flag"/>E</label>
+        <label><input type="checkbox" name="flag"/>W</label>
+        <label><input type="checkbox" name="flag"/>T</label>
+        <label><input type="checkbox" name="flag"/>R</label>
+        <label><input type="checkbox" name="flag"/>bez flagu</label>
+    </div>
+
+    <h2>Ostatné nastavenia</h2>
+    <p>Tu si môžeš nastaviť nejaké ďalšie nastavenia</p>
+    <div>
+        <label>Minimálna dĺžka slova: <input type="number" min="1" id="minlength"/></label><br/>
+        <label>Maximálna dĺžka slova: <input type="number" id="maxlength"/></label>
+    </div>
+
+    <button onclick="exportFile()">Exportovať</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
