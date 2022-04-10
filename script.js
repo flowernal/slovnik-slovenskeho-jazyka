@@ -26,6 +26,7 @@ const exportFile = () => {
         .then(text => {
             let minlength = document.getElementById("minlength");
             let maxlength = document.getElementById("maxlength");
+            let removeuppercase = document.getElementById("removeuppercase").checked;
 
             if (minlength.value.length && !maxlength.value.length) maxlength.value = minlength.value;
 
@@ -43,6 +44,7 @@ const exportFile = () => {
             }).map(word => word.split('/')[0]);
 
             if (minlength.value.length) words = words.filter(word => word.length >= minlength.value && word.length <= maxlength.value);
+            if (removeuppercase) words = words.filter(word => word.toLowerCase() === word)
 
             let element = document.createElement("a");
 
