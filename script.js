@@ -40,14 +40,14 @@ const exportFile = () => {
                             return true;
 
                 return false;
-            });
+            }).map(word => word.split('/')[0]);
 
             if (minlength.value.length) words = words.filter(word => word.length >= minlength.value && word.length <= maxlength.value);
 
             let element = document.createElement("a");
 
             element.setAttribute("href",
-                "data:text/plain;charset=utf-8," + encodeURIComponent(words.map(word => word.split('/')[0]).join("\n"))
+                "data:text/plain;charset=utf-8," + encodeURIComponent(words.join("\n"))
             );
 
             element.setAttribute("download", "exported.txt");
