@@ -13,7 +13,7 @@ alebo
 
 Slovník vo formáte UTF-8 nájdete [tu](https://slovnik.brambora.sk/slovnik.txt), prípadne si ho môžete stiahnúť z tohoto repa.
 
-Exporter nájdete [tu](https://slovnik.brambora.sk/).
+Exporter nájdete [tu](https://slovnik.flowern.al).
 
 # Kroky po stiahnutí
 1. Otvoríte si súbor `ispell-sk-0.3.2.tar.gz` pomocou 7-Zip, WinRAR, Ark apod. (alebo ho nejak rozbalíte)
