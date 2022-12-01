@@ -7,7 +7,7 @@ Našťastie som objavil slovník, ktorý bol vyvíjaný pre ispell (Open Source 
 Slovník si môžete stiahnuť z [tejto stránky](https://sk-spell.sk.cx/ispell-sk).
 
 Tu máte aj priame odkazy na download:
-[ispell-sk-0.3.2.tar.gz](https://spell.linux.sk/file_download/19/ispell-sk-0.3.2.tar.gz&)
+[ispell-sk-0.3.2.tar.gz](https://spell.linux.sk/file_download/19/ispell-sk-0.3.2.tar.gz)
 alebo
 ["admin friendly" link](https://sk-spell.sk.cx/files/ispell-sk-0.3.2.tar.gz).
 
