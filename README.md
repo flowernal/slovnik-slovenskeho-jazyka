@@ -11,7 +11,7 @@ Tu máte aj priame odkazy na download:
 alebo
 ["admin friendly" link](https://sk-spell.sk.cx/files/ispell-sk-0.3.2.tar.gz).
 
-Slovník vo formáte UTF-8 nájdete [tu](https://slovnik.brambora.sk/slovnik.txt), prípadne si ho môžete stiahnúť z tohoto repa.
+Slovník vo formáte UTF-8 nájdete [tu](https://slovnik.flowern.al/slovnik.txt), prípadne si ho môžete stiahnúť z tohoto repa.
 
 Exporter nájdete [tu](https://slovnik.flowern.al).
 
