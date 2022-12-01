@@ -14,14 +14,18 @@ const exportFile = () => {
     let flags = [];
     let includeWordsWithoutFlags = false;
 
-    for (let checkbox of checkboxes)
-        if (checkbox.checked)
-            if (checkbox.value === "0")
+    for (let checkbox of checkboxes) {
+        if (checkbox.checked) {
+            if (checkbox.value === "0") {
                 includeWordsWithoutFlags = true;
-            else
+            }
+            else {
                 flags.push(checkbox.value);
+            }
+        }
+    }
 
-    fetch("https://slovnik.brambora.sk/slovnik.txt")
+    fetch("slovnik.txt")
         .then(data => data.text())
         .then(text => {
             let minlength = document.getElementById("minlength");
