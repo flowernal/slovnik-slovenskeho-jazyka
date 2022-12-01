@@ -19,7 +19,7 @@ Exporter nájdete [tu](https://slovnik.brambora.sk/).
 1. Otvoríte si súbor `ispell-sk-0.3.2.tar.gz` pomocou 7-Zip, WinRAR, Ark apod. (alebo ho nejak rozbalíte)
 2. Extrahujete súbor `slovak.words`.
 3. Súbor je zakódovaný v ISO-8859-2, pokiaľ ho chcete konvertovať na UTF-8 a ste na Linuxe, tak to môžete spraviť pomocou príkazu `iconv -f ISO-8859-2 -t UTF-8 slovak.words > slovnik.txt` (vyššie je prípadne link na stiahnutie súboru priamo v UTF-8)
-4. Môžete použiť [môj exporter](https://slovnik.brambora.sk/) pre exportovanie špecifických tagov. Taktiež si tam môžete vybrať rôzne nastavenia.
+4. Môžete použiť [môj exporter](https://slovnik.flowern.al) pre exportovanie špecifických tagov. Taktiež si tam môžete vybrať rôzne nastavenia.
 
 # Ďalšie informácie
 Za niektorými slovami je / a nejaké písmená, to sú flagy. Pridávam popis flagov zo [stránky](https://sk-spell.sk.cx/ispell-sk):
