@@ -1,57 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Exporter</title>
-    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+	<meta charset="UTF-8">
+	<title>Exporter</title>
+	<link rel="icon" href="https://flowern.al/img/icon.png">
+	<link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
 </head>
+
 <body>
-    <h1>Exporter</h1>
-    <p>Tu si môžeš exportnúť špecifické slová zo <a href="https://github.com/flowernal/slovnik-slovenskeho-jazyka">slovníku slovenského jazyka</a></p>
+	<h1>Exporter</h1>
+	<p>Tu si môžeš exportnúť špecifické slová zo <a
+			href="https://github.com/flowernal/slovnik-slovenskeho-jazyka">slovníku slovenského jazyka</a></p>
 
-    <h2>Flagy</h2>
-    <p>Informácie o flagoch nájdeš <a href="https://sk-spell.sk.cx/ispell-sk">tu</a></p>
-    <div>
-        <label><input type="checkbox" onclick="toggleAll(this)"/>Označiť všetko</label><br/>
-        <label><input type="checkbox" name="flag" value="N"/>N</label>
-        <label><input type="checkbox" name="flag" value="Z"/>Z</label>
-        <label><input type="checkbox" name="flag" value="z"/>z</label>
-        <label><input type="checkbox" name="flag" value="U"/>U</label>
-        <label><input type="checkbox" name="flag" value="D"/>D</label>
-        <label><input type="checkbox" name="flag" value="K"/>K</label>
-        <label><input type="checkbox" name="flag" value="M"/>M</label>
-        <label><input type="checkbox" name="flag" value="S"/>S</label>
-        <label><input type="checkbox" name="flag" value="V"/>V</label>
-        <label><input type="checkbox" name="flag" value="A"/>A</label>
-        <label><input type="checkbox" name="flag" value="C"/>C</label>
-        <label><input type="checkbox" name="flag" value="H"/>H</label>
-        <label><input type="checkbox" name="flag" value="B"/>B</label>
-        <label><input type="checkbox" name="flag" value="O"/>O</label>
-        <label><input type="checkbox" name="flag" value="J"/>J</label>
-        <label><input type="checkbox" name="flag" value="L"/>L</label>
-        <label><input type="checkbox" name="flag" value="Q"/>Q</label>
-        <label><input type="checkbox" name="flag" value="Y"/>Y</label>
-        <label><input type="checkbox" name="flag" value="I"/>I</label>
-        <label><input type="checkbox" name="flag" value="F"/>F</label>
-        <label><input type="checkbox" name="flag" value="P"/>P</label>
-        <label><input type="checkbox" name="flag" value="X"/>X</label>
-        <label><input type="checkbox" name="flag" value="E"/>E</label>
-        <label><input type="checkbox" name="flag" value="W"/>W</label>
-        <label><input type="checkbox" name="flag" value="T"/>T</label>
-        <label><input type="checkbox" name="flag" value="R"/>R</label>
-        <label><input type="checkbox" name="flag" value="0"/>bez flagu</label>
-    </div>
+	<h2>Flagy</h2>
+	<p>Informácie o flagoch nájdeš <a href="https://sk-spell.sk.cx/ispell-sk">tu</a></p>
+	<div>
+		<label><input type="checkbox" onclick="toggleAll(this)" />Označiť všetko</label><br />
+		<label><input type="checkbox" name="flag" value="N" />N</label>
+		<label><input type="checkbox" name="flag" value="Z" />Z</label>
+		<label><input type="checkbox" name="flag" value="z" />z</label>
+		<label><input type="checkbox" name="flag" value="U" />U</label>
+		<label><input type="checkbox" name="flag" value="D" />D</label>
+		<label><input type="checkbox" name="flag" value="K" />K</label>
+		<label><input type="checkbox" name="flag" value="M" />M</label>
+		<label><input type="checkbox" name="flag" value="S" />S</label>
+		<label><input type="checkbox" name="flag" value="V" />V</label>
+		<label><input type="checkbox" name="flag" value="A" />A</label>
+		<label><input type="checkbox" name="flag" value="C" />C</label>
+		<label><input type="checkbox" name="flag" value="H" />H</label>
+		<label><input type="checkbox" name="flag" value="B" />B</label>
+		<label><input type="checkbox" name="flag" value="O" />O</label>
+		<label><input type="checkbox" name="flag" value="J" />J</label>
+		<label><input type="checkbox" name="flag" value="L" />L</label>
+		<label><input type="checkbox" name="flag" value="Q" />Q</label>
+		<label><input type="checkbox" name="flag" value="Y" />Y</label>
+		<label><input type="checkbox" name="flag" value="I" />I</label>
+		<label><input type="checkbox" name="flag" value="F" />F</label>
+		<label><input type="checkbox" name="flag" value="P" />P</label>
+		<label><input type="checkbox" name="flag" value="X" />X</label>
+		<label><input type="checkbox" name="flag" value="E" />E</label>
+		<label><input type="checkbox" name="flag" value="W" />W</label>
+		<label><input type="checkbox" name="flag" value="T" />T</label>
+		<label><input type="checkbox" name="flag" value="R" />R</label>
+		<label><input type="checkbox" name="flag" value="0" />bez flagu</label>
+	</div>
 
-    <h2>Ostatné nastavenia</h2>
-    <p>Tu si môžeš nastaviť nejaké ďalšie nastavenia</p>
-    <div>
-        <label>Minimálna dĺžka slova: <input type="number" min="1" id="minlength"/></label><br/>
-        <label>Maximálna dĺžka slova: <input type="number" id="maxlength"/></label><br/>
-        <label>Odstrániť slová, ktoré obsahujú veľké písmeno? <input type="checkbox" id="removeuppercase"/></label>
-    </div>
+	<h2>Ostatné nastavenia</h2>
+	<p>Tu si môžeš nastaviť nejaké ďalšie nastavenia</p>
+	<div>
+		<label>Minimálna dĺžka slova: <input type="number" min="1" id="minLength" /></label><br />
+		<label>Maximálna dĺžka slova: <input type="number" id="maxLength" /></label><br />
+		<label>Odstrániť slová, ktoré obsahujú veľké písmeno? <input type="checkbox" id="removeUppercase" /></label>
+	</div>
 
-    <button onclick="exportFile()">Exportovať</button>
+	<button onclick="exportFile()">Exportovať</button>
 
-    <script src="script.js"></script>
+	<script src="script.js"></script>
 </body>
+
 </html>
