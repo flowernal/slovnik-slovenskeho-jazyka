@@ -47,9 +47,7 @@ const exportFile = () => {
 				}
 
 				return false;
-			}).map(word => word.split("/")[0]);
-
-			words.filter(word => {
+			}).map(word => word.split("/")[0]).filter(word => {
 				if (minLength.value.length && word.length < Number(minLength.value)) {
 					return false;
 				}
