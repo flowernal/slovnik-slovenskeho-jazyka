@@ -16,7 +16,7 @@
 	<h2>Flagy</h2>
 	<p>Informácie o flagoch nájdeš <a href="https://sk-spell.sk.cx/ispell-sk">tu</a></p>
 	<div>
-		<label><input type="checkbox" onclick="toggleAll(this)" />Označiť všetko</label><br />
+		<label><input type="checkbox" onclick="toggleAll(this)" />O(d)značiť všetko</label>
 		<label><input type="checkbox" name="flag" value="N" />N</label>
 		<label><input type="checkbox" name="flag" value="Z" />Z</label>
 		<label><input type="checkbox" name="flag" value="z" />z</label>
@@ -49,8 +49,8 @@
 	<h2>Ostatné nastavenia</h2>
 	<p>Tu si môžeš nastaviť nejaké ďalšie nastavenia</p>
 	<div>
-		<label>Minimálna dĺžka slova: <input type="number" min="1" id="minLength" /></label><br />
-		<label>Maximálna dĺžka slova: <input type="number" id="maxLength" /></label><br />
+		<label>Minimálna dĺžka slova: <input type="number" min="1" max="37" id="minLength" /></label>
+		<label>Maximálna dĺžka slova: <input type="number" min="1" max="37" id="maxLength" /></label>
 		<label>Odstrániť slová, ktoré obsahujú veľké písmeno? <input type="checkbox" id="removeUppercase" /></label>
 	</div>
 
